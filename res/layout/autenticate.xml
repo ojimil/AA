@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center">
+
+
+	<TableRow
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Segment1">
+
+		<TextView
+			android:id="@+id/textView1"
+			android:minWidth="200px"
+			android:layout_height="wrap_content"
+			android:text="login"
+			android:layout_width="wrap_content" />
+
+		<EditText
+			android:minWidth="200px"
+			android:layout_height="wrap_content"
+			android:id="@+id/editText1"
+			android:layout_width="match_parent"
+			android:text="Login" />
+
+	</TableRow>
+
+	<TableRow
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Segment2">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="password"
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content" />
+
+
+		<EditText
+			android:text="Pass"
+			android:password="true"
+			android:textStyle="bold"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/editText2"
+			android:layout_alignParentLeft="true" />
+
+
+	</TableRow>
+
+
+	<!-- <TextView android:id="@+id/textView1" android:layout_height="wrap_content" 
+		android:text="login" android:layout_width="wrap_content"></TextView> -->
+	<!-- <EditText android:layout_height="wrap_content" android:id="@+id/editText1" 
+		android:layout_width="match_parent" android:text="Login"></EditText> -->
+	<!-- <TextView android:layout_height="wrap_content" android:text="password" 
+		android:id="@+id/textView1" android:layout_width="wrap_content"></TextView> -->
+	<!-- <EditText android:text="Pass" android:layout_height="wrap_content" 
+		android:layout_width="match_parent" android:id="@+id/editText2" android:layout_alignParentLeft="true"></EditText> -->
+
+
+
+	<Button
+		android:id="@+id/button1"
+		android:text="log ON"
+		android:minWidth="200px"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" />
+
+
+
+
+
+
+</TableLayout>
+
+
+
+

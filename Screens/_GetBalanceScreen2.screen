@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="168" y="48" width="305" height="393" measuredWidth="305" measuredHeight="393"/>
+  <widgets xsi:type="model:ButtonBar" x="168" y="368" width="305" height="73" text="My Balance, My transactions, Secondary,Contact Us" measuredWidth="305" measuredHeight="73" selection="0">
+    <font/>
+    <items x="0" y="0" width="75" height="73" text="My Balance"/>
+    <items x="75" y="0" width="96" height="73" text="My transactions"/>
+    <items x="171" y="0" width="71" height="73" text="Secondary"/>
+    <items x="242" y="0" width="63" height="73" text="Contact Us"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" x="384" y="410" text="2" measuredWidth="23" measuredHeight="23" background="#cc0000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" x="364" y="413" measuredWidth="24" measuredHeight="24" icon="usergroup (medium)"/>
+  <widgets xsi:type="model:Icon" x="280" y="412" measuredWidth="24" measuredHeight="24" icon="refresh (medium)"/>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

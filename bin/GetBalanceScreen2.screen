@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="168" y="72" width="265" height="385" measuredWidth="265" measuredHeight="385"/>
+  <widgets xsi:type="model:Label" x="173" y="396" text="My Balance" measuredWidth="57" measuredHeight="56" textAlignment="Center" state="disabled" icon="currency-dollar (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="234" y="396" text="My Transactions" measuredWidth="81" measuredHeight="56" textAlignment="Center" icon="refresh (large)" iconPosition="top" link="MyTransactionsScreen3.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="316" y="396" text="Secondary" measuredWidth="54" measuredHeight="56" textAlignment="Center" icon="usergroup (large)" iconPosition="top" link="SecondaryScreen4.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="374" y="396" text="Contact Us" measuredWidth="56" measuredHeight="56" textAlignment="Center" icon="email (large)" iconPosition="top" link="ContactUsScreen5.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" x="210" y="410" measuredWidth="16" measuredHeight="16" icon="currency-euro (small)"/>
+  <widgets xsi:type="model:Icon" x="175" y="410" measuredWidth="16" measuredHeight="16" icon="currency-yen (small)"/>
+  <widgets xsi:type="model:Callout" x="350" y="394" text="2" measuredWidth="23" measuredHeight="23" background="#cc0000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" x="184" y="184" measuredWidth="233" measuredHeight="113">
+    <widgets xsi:type="model:Group" width="233" height="113" measuredWidth="233" measuredHeight="113" background="#cfe2f3"/>
+    <widgets xsi:type="model:Label" x="73" y="16" text="My Balance" measuredWidth="100" measuredHeight="31">
+      <font size="14"/>
+    </widgets>
+    <widgets xsi:type="model:Label" x="73" y="45" text="1000 $" measuredWidth="98" measuredHeight="41">
+      <font size="20" bold="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

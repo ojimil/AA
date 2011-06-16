@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" x="202" y="90" measuredWidth="265" measuredHeight="385">
+    <widgets xsi:type="model:WidgetGroup" measuredWidth="265" measuredHeight="385">
+      <widgets xsi:type="model:Group" width="265" height="385" measuredWidth="265" measuredHeight="385"/>
+      <widgets xsi:type="model:WidgetGroup" x="4" y="324" measuredWidth="257" measuredHeight="56">
+        <widgets xsi:type="model:WidgetGroup" measuredWidth="257" measuredHeight="56">
+          <widgets xsi:type="model:Label" text="My Balance" measuredWidth="57" measuredHeight="56" textAlignment="Center" icon="currency-dollar (large)" iconPosition="top" link="GetBalanceScreen2.screen">
+            <font/>
+          </widgets>
+          <widgets xsi:type="model:Label" x="61" text="My Transactions" measuredWidth="81" measuredHeight="56" textAlignment="Center" icon="refresh (large)" iconPosition="top" link="MyTransactionsScreen3.screen">
+            <font/>
+          </widgets>
+          <widgets xsi:type="model:Label" x="143" text="Secondary" measuredWidth="54" measuredHeight="56" textAlignment="Center" state="disabled" icon="usergroup (large)" iconPosition="top">
+            <font/>
+          </widgets>
+          <widgets xsi:type="model:Label" x="201" text="Contact Us" measuredWidth="56" measuredHeight="56" textAlignment="Center" icon="email (large)" iconPosition="top" link="ContactUsScreen5.screen">
+            <font/>
+          </widgets>
+        </widgets>
+        <widgets xsi:type="model:Icon" x="38" y="14" measuredWidth="16" measuredHeight="16" icon="currency-euro (small)"/>
+        <widgets xsi:type="model:Icon" x="3" y="14" measuredWidth="16" measuredHeight="16" icon="currency-yen (small)"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Callout" x="182" y="322" text="2" measuredWidth="23" measuredHeight="23" background="#cc0000">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Tabs" x="206" y="98" text="Move Funds,Transactions,Balance,List" measuredWidth="254" measuredHeight="23" selection="2">
+    <items x="1" y="0" width="78" height="23" text="Move Funds"/>
+    <items x="79" y="0" width="81" height="23" text="Transactions"/>
+    <items x="160" y="0" width="57" height="23" text="Balance"/>
+    <items x="217" y="0" width="36" height="23" text="List"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="216" y="208" width="233" height="113" measuredWidth="233" measuredHeight="113" background="#ffd966"/>
+  <widgets xsi:type="model:Label" x="302" y="224" text="Balance" measuredWidth="70" measuredHeight="31">
+    <font size="14"/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="286" y="253" text="{currency-pound} 1,222" measuredWidth="113" measuredHeight="41">
+    <font size="20" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

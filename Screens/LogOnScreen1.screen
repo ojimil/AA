@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="168" y="40" width="265" height="385" measuredWidth="265" measuredHeight="385"/>
+  <widgets xsi:type="model:Label" x="212" y="144" width="43" text="Login" measuredWidth="43" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="212" y="184" text="Password" measuredWidth="51" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="287" y="144" width="104" measuredWidth="104" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="288" y="184" width="104" measuredWidth="104" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="213" y="231" width="179" text="LogON" measuredWidth="179" measuredHeight="23" link="GetBalanceScreen2.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" x="294" y="272" measuredWidth="32" measuredHeight="32" icon="loading (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

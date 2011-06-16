@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="sketch">
+  <widgets xsi:type="model:Group" x="32" y="72" width="265" height="385" measuredWidth="265" measuredHeight="385"/>
+  <widgets xsi:type="model:Label" x="37" y="396" text="My Balance" measuredWidth="57" measuredHeight="56" textAlignment="Center" icon="currency-dollar (large)" iconPosition="top" link="GetBalanceScreen2.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="98" y="396" text="My Transactions" measuredWidth="81" measuredHeight="56" textAlignment="Center" icon="refresh (large)" iconPosition="top" link="MyTransactionsScreen3.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="180" y="396" text="Secondary" measuredWidth="54" measuredHeight="56" textAlignment="Center" state="disabled" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="238" y="396" text="Contact Us" measuredWidth="56" measuredHeight="56" textAlignment="Center" icon="email (large)" iconPosition="top" link="ContactUsScreen5.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" x="74" y="410" measuredWidth="16" measuredHeight="16" icon="currency-euro (small)"/>
+  <widgets xsi:type="model:Icon" x="39" y="410" measuredWidth="16" measuredHeight="16" icon="currency-yen (small)"/>
+  <widgets xsi:type="model:Callout" x="214" y="394" text="2" measuredWidth="23" measuredHeight="23" background="#cc0000">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" x="214" y="223" width="65" height="49" measuredWidth="65" measuredHeight="49">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" x="95" y="320" width="65" height="49" measuredWidth="65" measuredHeight="49">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" x="192" y="320" width="65" height="49" measuredWidth="65" measuredHeight="49">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" x="33" y="82" width="262" height="61" measuredWidth="262" measuredHeight="61">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="128" y="88" width="86" text="Secondary Cards" measuredWidth="86" measuredHeight="56" textAlignment="Center" foreground="#cc0000" icon="usergroup (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" x="136" y="153" width="65" height="49" measuredWidth="65" measuredHeight="49" link="MoveFundsScreen41.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="155" y="158" text="Nabil" measuredWidth="34" measuredHeight="22">
+    <font size="9" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" x="141" y="180" measuredWidth="16" measuredHeight="16" icon="currency-pound (small)"/>
+  <widgets xsi:type="model:Label" x="159" y="177" text="2000" measuredWidth="37" measuredHeight="22">
+    <font size="9" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" x="55" y="223" measuredWidth="65" measuredHeight="49">
+    <widgets xsi:type="model:Rectangle" width="65" height="49" measuredWidth="65" measuredHeight="49">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" x="14" y="5" text="Ayoub" measuredWidth="45" measuredHeight="22">
+      <font size="9" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" x="5" y="27" measuredWidth="16" measuredHeight="16" icon="currency-pound (small)"/>
+    <widgets xsi:type="model:Label" x="23" y="24" text="2000" measuredWidth="37" measuredHeight="22">
+      <font size="9" bold="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

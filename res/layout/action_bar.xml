@@ -5,6 +5,7 @@
 	android:layout_height="wrap_content"
 	android:background="#000"
 	android:paddingBottom="1dp">
+	
 	<LinearLayout
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
@@ -13,7 +14,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="50dp"
 			android:src="@drawable/dollarb"			
-			android:id="@+id/ab_home"
+			android:id="@+id/img_btn_getbalance"
 			android:layout_marginRight="1dp"			
 			android:background="@drawable/btn"
 			android:padding="25dp"
@@ -24,7 +25,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="50dp"
 			android:src="@drawable/transactions2"
-			android:id="@+id/ab_home"
+			android:id="@+id/img_btn_transactions"
 			android:layout_marginRight="1dp"
 			android:background="@drawable/btn"
 			android:padding="25dp" />
@@ -33,7 +34,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="50dp"
 			android:src="@drawable/secondary"
-			android:id="@+id/ab_home"
+			android:id="@+id/img_btn_secondary"
 			android:layout_marginRight="1dp"
 			android:background="@drawable/btn"
 			android:padding="25dp" />
@@ -42,7 +43,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="50dp"
 			android:src="@drawable/contactus2"
-			android:id="@+id/ab_search"			
+			android:id="@+id/img_btn_contactus"			
 			android:background="@drawable/btn"
 			android:padding="25dp" />
 

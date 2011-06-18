@@ -6,29 +6,7 @@
 	android:layout_height="fill_parent">
 	
 	
-	<TextView
-		android:gravity="center"
-		android:id="@+id/tvClick2"		
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:minHeight="1in"
-		
-		android:textSize="25sp"
-		android:layout_gravity="center_vertical">
-	</TextView>
-	
 
-	<TextView
-		android:gravity="center"
-		android:id="@+id/tvClick"
-		android:text="My Balance : 1000 dhs"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:minHeight="1in"
-		android:background="#ff0000"
-		android:textSize="25sp"
-		android:layout_gravity="center_vertical">
-	</TextView>
 
 
 	<!-- <ma.b3g.carta.ui.ActionBarView -->

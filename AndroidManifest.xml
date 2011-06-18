@@ -29,6 +29,14 @@
 		<activity
 			android:name=".ContactUs"
 			android:label="contact_us" />
-
+			
+			<activity
+			android:name=".Transactions"
+			android:label="transactions" />
+			
+			<activity
+			android:name=".Secondary"
+			android:label="secondary" />
+			
 	</application>
 </manifest>

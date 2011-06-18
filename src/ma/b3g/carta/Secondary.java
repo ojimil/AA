@@ -7,20 +7,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class GetBalance extends Activity implements OnDispatchClickListener {
-
+public class Secondary extends Activity implements OnDispatchClickListener  {
+	
 	private ActionBarView mActionBar;
 	private TextView mTvClick;
 
 	private Intent intentToTransactions;
-	private Intent intentToSecondary;
+	private Intent intentToGetBalance;
 	private Intent intentToContactUs;
-
+	
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.get_balance);
-
+		setContentView(R.layout.secondary);
+		
+		
 		mActionBar = ((ActionBarView) findViewById(R.id.actionbar));
 		mActionBar.showButtonSearch();
 
@@ -29,14 +31,15 @@ public class GetBalance extends Activity implements OnDispatchClickListener {
 		// mActionBar.loading();
 
 		mActionBar.setOnDispatchClickListener(this);
-
-		mTvClick = (TextView) findViewById(R.id.tvClick);
-
+		
+		
+		
 	}
 
 	@Override
 	public void onDispatchClick(int id) {
 		// TODO Auto-generated method stub
+		
 		switch (id) {
 
 		case R.id.img_btn_transactions:
@@ -44,9 +47,9 @@ public class GetBalance extends Activity implements OnDispatchClickListener {
 			this.startActivity(intentToTransactions);
 			break;
 
-		case R.id.img_btn_secondary:
-			intentToSecondary = new Intent(this, Secondary.class);
-			this.startActivity(intentToSecondary);
+		case R.id.img_btn_getbalance:
+			intentToGetBalance = new Intent(this, GetBalance.class);
+			this.startActivity(intentToGetBalance);
 			break;
 
 		case R.id.img_btn_contactus:
@@ -57,7 +60,7 @@ public class GetBalance extends Activity implements OnDispatchClickListener {
 		default:
 			break;
 		}
-
+		
 	}
 
 }

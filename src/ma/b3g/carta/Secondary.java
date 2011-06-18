@@ -31,6 +31,7 @@ public class Secondary extends Activity implements OnDispatchClickListener  {
 		// mActionBar.loading();
 
 		mActionBar.setOnDispatchClickListener(this);
+		mTvClick = (TextView) findViewById(R.id.tvClick);
 		
 		
 		

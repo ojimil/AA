@@ -36,7 +36,7 @@ public class Transactions extends Activity implements OnDispatchClickListener  {
 		switch (id) {
 
 		case R.id.img_btn_getbalance:
-			intentToGetBalance = new Intent(this, Transactions.class);
+			intentToGetBalance = new Intent(this, GetBalance.class);
 			this.startActivity(intentToGetBalance);
 			break;
 

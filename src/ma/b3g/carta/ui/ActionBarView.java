@@ -53,7 +53,7 @@ public class ActionBarView extends LinearLayout implements OnClickListener {
 		mButtonGetBalance.setOnClickListener(this);
 		mButtonContactUs.setOnClickListener(this);
 		mButtonTransactions.setOnClickListener(this);
-		mButtonContactUs.setOnClickListener(this);
+		mButtonSecondary.setOnClickListener(this);
 
 	}
 

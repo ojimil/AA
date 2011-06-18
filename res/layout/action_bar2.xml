@@ -5,9 +5,23 @@
 	android:layout_height="match_parent">
 
 
+
+<!-- 	on invoque les traitements de la classe ActionBarView dans ce layout -->
+
 	<ma.b3g.carta.ui.ActionBarView
 		android:id="@+id/actionbar"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content" />
 
 </LinearLayout>
+
+
+
+<!-- pour permettre les include dans les pages : -->
+
+<!-- 	get_balance -->
+<!-- 	transactions -->
+<!-- 	secondary -->
+<!-- 	contact_us -->
+
+<!-- on a mis cette partie très importante dans ce fichiers -->

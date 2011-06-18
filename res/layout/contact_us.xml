@@ -10,7 +10,7 @@
 		android:id="@+id/tv_clickEcran3"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="ecran3" />
+		android:text="contact us" />
 		
 	<ma.b3g.carta.ui.ActionBarView
 		android:id="@+id/actionbar"

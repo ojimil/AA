@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
-	
-	<TextView
-		android:gravity="center"
-		android:id="@+id/tvClick"
-		android:text="secondary"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:minHeight="1in"
-		android:background="#ff0000"
-		android:textSize="25sp"
-		android:layout_gravity="center_vertical">
-	</TextView>
+
+	<!-- <TextView -->
+	<!-- android:gravity="center" -->
+	<!-- android:id="@+id/tvClick" -->
+	<!-- android:text="secondary" -->
+	<!-- android:layout_width="match_parent" -->
+	<!-- android:layout_height="wrap_content" -->
+	<!-- android:minHeight="1in" -->
+	<!-- android:background="#ff0000" -->
+	<!-- android:textSize="25sp" -->
+	<!-- android:layout_gravity="center_vertical"> -->
+	<!-- </TextView> -->
 
 
 
@@ -27,17 +27,35 @@
 	<LinearLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:layout_width="fill_parent"
-		android:layout_height="fill_parent">
+		android:layout_height="fill_parent"
+		android:id="@+id/circlePart"
+		android:gravity='top'>
 		<!-- Insertion de l’interface comportant le pied de page -->
 		<include
-			android:id="@+id/include02"
+			android:id="@+id/include01"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			layout="@layout/action_bar2"
-			android:layout_gravity="bottom">
+			layout="@layout/circle2">
 		</include>
 	</LinearLayout>
 
 
 
-</LinearLayout>
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="bottom">
+		<!-- Insertion de l’interface comportant le pied de page -->
+		<include
+			android:layout_below="@+id/circlePart"
+			android:id="@+id/include02"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			layout="@layout/action_bar2">
+		</include>
+	</LinearLayout>
+
+
+
+</RelativeLayout>
